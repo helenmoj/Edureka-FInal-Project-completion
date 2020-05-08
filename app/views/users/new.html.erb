@@ -1,0 +1,28 @@
+<head>
+  <style>
+  </style>
+</head>
+<body>
+<h1 style="color: blue; font-size:16px">Create new account</h1>
+<div>
+
+  <%= form_for @user do |f| %>
+    <p><b> Name</br> <%= f.text_field :name, required: true%> </b></p>
+    <p><b> Email</br> <%= f.text_field :email, required: true%> </b></p>
+    <p><b> Password</br> <%= f.text_field :password, required: true%> </b></p>
+    <p><b> Confirm password</br> <%= f.text_field :password, required: true%></b> </p>
+    <div class="btn-group">
+      <button style="background-color: dodgerblue; border-radius: 15%"  id="slide_sign_up_button" value="Sign up">Sign up</button>
+      <input  style="background-color: dodgerblue; border-radius: 15%" type="reset" value="Cancel" />
+    </div>
+    <div class="btn-group">
+      <style>
+        a {color: orangered;
+        }
+      </style>
+      </head>
+      <body>
+      <p> already have an account? <%= link_to "Sign in", login_path, :class => 'navbar-link' %></p>
+    </div>
+  <% end %>
+</div>

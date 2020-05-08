@@ -1,0 +1,26 @@
+<h1 style="color: lightblue; font-size:16px">Login into your account</h1>
+
+<%= form_for :login do |f| %>
+  <div>
+    <p><b> Email</br> <%= f.text_field :email, required: true%></b> </p>
+    <p> <b>Password</br> <%= f.text_field :password, required: true%></b> </p>
+    <div class="btn-group">
+      <button style="background-color: dodgerblue; border-radius: 15%"  id="slide_sign_up_button" value="Sign In">Sign In</button>
+      <input style="background-color: dodgerblue; border-radius: 15%"  type="reset" value="Cancel" />
+    </div>
+    <div class="btn-group">
+      <style>
+        a {
+          color: orangered;
+        }
+      </style>
+      </head>
+      <body>
+      <li style="display:inline-block;">
+        <p> New User? <%= link_to "Sign Up now!", root_path, :class => 'navbar-link' %></p>
+      </li>
+      <li style="display:inline-block;">
+        <p><%= link_to 'Forgot password?', new_password_reset_path %></p>
+    </div>
+  </div>
+<% end %>
