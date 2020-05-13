@@ -3,7 +3,7 @@
 <%= form_for :login do |f| %>
   <div>
     <p><b> Email</br> <%= f.text_field :email, required: true%></b> </p>
-    <p> <b>Password</br> <%= f.text_field :password, required: true%></b> </p>
+    <p> <b>Password</br> <%= f.password_field :password, required: true%></b> </p>
     <div class="btn-group">
       <button style="background-color: dodgerblue; border-radius: 15%"  id="slide_sign_up_button" value="Sign In">Sign In</button>
       <input style="background-color: dodgerblue; border-radius: 15%"  type="reset" value="Cancel" />

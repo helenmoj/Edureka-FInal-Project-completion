@@ -1,0 +1,18 @@
+<h1 style="color: lightblue; font-size:16px">Account</h1>
+
+
+<%= form_for @account do |f| %>
+    <div class="field">
+      <%=f.label :image %>
+      <%=f.file_field :image %>
+      <img src="/assets/Wallace-transparent.jpeg" width="40" height="40"/>
+    </div>
+    <p> First name</br> <%= f.text_field :first_name%> </p>
+    <p> Last name</br> <%= f.text_field :last_name%> </p>
+    <%= f.label :birthday %><br />
+    <%= f.date_select :birthday, :start_year=>1900 %>
+    <p> Mobile number</br> <%= f.number_field :mobile_number%> </p>
+    <button style="background-color: dodgerblue; border-radius: 15%"  id="slide_sign_up_button" value="update_account">save</button>
+    </form>
+  <% end %>
+</div>
