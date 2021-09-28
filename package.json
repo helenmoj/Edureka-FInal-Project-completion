@@ -6,6 +6,7 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "6.0.0-pre.1",
+    "ansi-html": "^0.0.7",
     "glob-parent": "^5.1.2",
     "serialize-javascript": "^5.0.1",
     "turbolinks": "^5.2.0"
