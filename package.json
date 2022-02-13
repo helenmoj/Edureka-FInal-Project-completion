@@ -14,5 +14,11 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.1.0"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
   }
 }
