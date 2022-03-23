@@ -1190,11 +1190,7 @@ ansi-html-community@^0.0.8:
   version "0.0.8"
   resolved "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
 
-ansi-html@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/ansi-html/-/ansi-html-0.0.7.tgz"
-
-"ansi-html@https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz":
+ansi-html@^0.0.8, "ansi-html@https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz":
   version "0.0.8"
   uid "69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
   resolved "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz#69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
